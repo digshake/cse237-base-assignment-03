@@ -1,6 +1,6 @@
 Assignment 3 Instructions 
 
-For this assignment, you will be writing a grader that clones a series of student repos, checks out an assignment branch, runs some code that a student wrote and then grades the output. You will submit one bash script that performs steps 1-7, but as you are writing the script you may need to only run parts of it in order to avoid duplicating work when debugging. 
+For this assignment, you will be writing a grader that clones a series of student repos, checks out an assignment branch, runs some code that a student wrote and then grades the output. You will submit one bash script that performs steps 3-7, but as you are writing the script you may need to only run parts of it in order to avoid duplicating work when debugging. 
 
 1. For starters, check out your own repo from GitHub. This repo contains the following files: 
 	- student_keys.txt: a series of fake wustl keys you will use to test your grading script. In reality, your script should accept any input of wustl keys. 
@@ -13,7 +13,7 @@ For this assignment, you will be writing a grader that clones a series of studen
 
 4. Each repository has two branches - the master branch and a branch called "cipher". Check out the cipher branch to see the students' actual code. 
 
-5. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Tuesday February 4 at 5pm. (HINT: There is an easy way to do this and a hard way to do this. For the easy way, you should check out the Git documentation). 
+5. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Tuesday February 4 at 5pm Central Time. (HINT: There is an easy way to do this and a hard way to do this. For the easy way, you should check out the Git documentation). 
 
 5. If the student submitted the assignment on time, then in this branch is a single file called Cipher.java. Compile this program as a Java class and run it for each student. It should run without any errors. If they did not submit it in time, they automatically get a 0.  
 
