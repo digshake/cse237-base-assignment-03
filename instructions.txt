@@ -15,20 +15,18 @@ Now write a bash script called "grading.sh". The exact command that we will use 
 
 Your script should perform the following tasks:
 
-1. Clone all of the repositories for the fake students using "student_keys.txt". Note that the URL for the repository looks like this: https://github.com/wustlcse237sp20/[wustl_key].git with the appropriate wustl_key substituted. 
+1. Clone all of the repositories for the fake students using "student_keys.txt". Note that the URL for the repository looks like this: https://github.com/CSE237-SP24/[wustl_key].git with the appropriate wustl_key substituted. 
 
 2. Each repository has two branches - the master branch and a branch called "cipher". Check out the cipher branch to see the students' actual code. 
 
-3. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Tuesday February 4 at 5pm Central Time. (HINT: There is an easy way to do this and a hard way to do this. For the easy way, you should do some Googling and check out the Git documentation). 
-
-4. If the student submitted the assignment on time, then in this branch is a single file called Cipher.java. Compile this program as a Java class and run it for each student. It should run without any errors. If they did not submit it in time, they automatically get a 0.  
+3. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Monday February 12 at 10am Central Time. (HINT: There are multiple ways to do this, but some will be more straightforward than others. You are expected to do some searching online for solutions, so consider carefully what you are trying to do, then see if Google can help you out.) If the student submitted the assignment on time, then in this branch is a single file called Cipher.java. Compile this program as a Java class and run it for each student. It should run without any errors. If they did not submit it in time, they automatically get a 0.  
 
 5. Go through the student repositories and check for two things: 
 	1) Is the "output.txt" file there?
 	2) Is the output in "output.txt" correct based on "expected_output.txt"?
 
-6. If the output is correct, the student scores a 1. Otherwise, (either the assignment was late, the output did not exist, or the output was incorrect) the student scores a 0. Write this score for each student to a file called "grades.txt". 
+6. If the output is correct, the student scores a 1. Otherwise, (either the assignment was late, the output did not exist, or the output was incorrect) the student scores a 0. Your script should print the student's grade once it is determined. 
 
 Submission:
 
-Commit "grades.txt" and your finished bash script to the "cipher_grade_output" branch of your repository. Merge this branch to the master branch and push all changes. If you go to GitHub.com you should be able to see all of the files as well as both branches.
+Commit your finished bash script to the "cipher_grade_output" branch of your repository. Merge this branch to the master branch and push all changes. If you go to GitHub.com you should be able to see all of the files as well as both branches.

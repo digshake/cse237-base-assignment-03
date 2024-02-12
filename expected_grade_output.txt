@@ -4,7 +4,7 @@ shakira 0
 zendaya 1
 lebron.james 1
 terry.crews 1
-jeff.weiner 0
+louis.cole 0
 jake.peralta 1
 aquaman 0
 kratos 1
@@ -12,4 +12,4 @@ geralt.rivia 1
 lady.gaga 0
 lin.manuel.miranda 1
 beyonce 1
-beau.bennett 0
+patrick.mahomes 0

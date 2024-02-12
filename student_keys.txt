@@ -4,7 +4,7 @@ shakira
 zendaya
 lebron.james
 terry.crews
-jeff.weiner
+louis.cole
 jake.peralta
 aquaman
 kratos
@@ -12,4 +12,4 @@ geralt.rivia
 lady.gaga
 lin.manuel.miranda
 beyonce
-beau.bennett
+patrick.mahomes
