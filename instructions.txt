@@ -15,7 +15,7 @@ Now write a bash script called "grading.sh". The exact command that we will use 
 
 Your script should perform the following tasks:
 
-1. Clone all of the repositories for the fake students using "student_keys.txt". Note that the URL for the repository looks like this: https://github.com/CSE237-SP24/[wustl_key].git with the appropriate wustl_key substituted. 
+1. Clone all of the repositories for the fake students using "student_keys.txt". Note that the URL for the repository looks like this: https://github.com/CSE237-SP24/fake-WUSTL_KEY.git with the appropriate WUSTL_KEY substituted. 
 
 2. Each repository has two branches - the master branch and a branch called "cipher". Check out the cipher branch to see the students' actual code. 
 
