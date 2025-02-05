@@ -11,9 +11,9 @@ For this assignment, you will be writing a grader that clones a series of studen
 
 Now write a bash script called "grading.sh". The exact command that we will use to test your script is as follows:
 
-./grading.sh expected_output.txt output.txt < student_keys.txt
+./grading.sh Cipher expected_output.txt output.txt < student_keys.txt
 
-The first argument of the above command (expected_output.txt) specifies what the expected output form the students java code should be. The second argument (output.txt) is the name of the file in which the output from the student's Java code can be found after it is run. Please make sure to use these properly as arguments, if you hardcode these file names into your script you will lose points!
+The first argument of the above command (Cipher) specifies the Java file/program to be executed. The second argument (expected_output.txt) specifies what the expected output from the students java code should be. The third argument (output.txt) is the name of the file in which the output from the student's Java code can be found after it is run. Please make sure to use these properly as arguments, if you hardcode these file names into your script you will lose points!
 
 Your script should perform the following tasks:
 
@@ -21,7 +21,7 @@ Your script should perform the following tasks:
 
 2. Each repository has two branches - the master branch and a branch called "cipher". Check out the cipher branch to see the students' actual code. 
 
-3. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Wednesday February 5, 2025 at 10am Central Time. (HINT: There are multiple ways to do this, but some will be more straightforward than others. You are expected to do some searching online for solutions, so consider carefully what you are trying to do, then see if Google can help you out.) If the student submitted the assignment on time, then in this branch is a single file called Cipher.java. Compile this program as a Java class and run it for each student. It should run without any errors. If they did not submit it in time, they automatically get a 0.  
+3. In the case that the student submitted the code past the deadline, you do not want to consider it in terms of grading. Therefore, you should only consider commits before the deadline of Wednesday February 5, 2025 at 10am Central Time. (HINT: There are multiple ways to do this, but some will be more straightforward than others. You are expected to do some searching online for solutions, so consider carefully what you are trying to do, then see if Google can help you out. ANOTHER BIG HINT: if you are using a long number that represents UNIX time then you are probably not doing it properly...) If the student submitted the assignment on time, then in this branch is a single file called Cipher.java. Compile this program as a Java class and run it for each student. It should run without any errors. If they did not submit it in time, they automatically get a 0.  
 
 5. Go through the student repositories and check for two things: 
 	1) Is the specified output file (output.txt) there?
