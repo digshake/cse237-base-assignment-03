@@ -3,7 +3,7 @@ Assignment 3 Instructions
 For this assignment, you will be writing a grader that clones a series of student repos, checks out an assignment branch, runs some code that a student wrote and then grades the output. You will submit one bash script, but as you are writing the script you may need to only run parts of it in order to avoid duplicating work when debugging. 
 
 1. For starters, check out your own repo from GitHub. This repo contains the following files: 
-	- student_keys.txt: a series of fake wustl keys you will use to test your grading script. In reality, your script should accept any input of wustl keys. 
+	- student_keys.txt: a series of fake wustl keys you will use to test your grading script.
 	- expected_output.txt: the expected output of the students program for you to use to grade. 
 	- expected_grade_output.txt: the expected output of your grader for the grades assigned to the students. 
 
